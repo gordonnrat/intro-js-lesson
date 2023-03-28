@@ -9,6 +9,10 @@ Make sure to code-along during lecture.
 // 2. Console Log + Comments + Reserved Words + Camel Case + Naming Convention
 
 // 3. Creating Variables + Data Types
+    let mySavings = "this is a sentence";
+
+    alert(mySavings);
+    console.log(mySavings)
 
 // 4. Creating Functions (+ Event Listeners?)
 
