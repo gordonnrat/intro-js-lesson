@@ -31,7 +31,7 @@ Complete the following numbered tasks:
 // 1. Create a doubleNumber function statement that takes in 1 number parameter and returns double the value.
 
 function doubleNumber(a) {
-    let double = 2 * a
+    let double = 2 * a;
     console.log(double);
     return double;
 }
@@ -41,7 +41,7 @@ doubleNumber(10);
 // 2. Create a squareNumber function expression that takes in 1 number parameter and returns the square
 
 function squareNumber(a) {
-    let square = a**2
+    let square = a**2;
     console.log(square);
     return square;
 }
@@ -52,4 +52,4 @@ squareNumber(5);
 
 let productNumber = (a, b) => console.log(a * b);
 
-productNumber(2,5)
+productNumber(2,5);
