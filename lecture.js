@@ -34,11 +34,23 @@ Make sure to code-along during lecture.
     //     console.log(sum)
     // }
 
-// add(5,8);
+    // add(5,8);
 
 // 5. Strings
 
 // 6. Numbers
+
+    // console.log(2**3);
+
+    // let increment = 11;
+    // console.log(++increment);
+
+    // console.log(Math.abs(-5634));
+
+    // console.log(Math.ceil(Math.random() * 100));
+
+    // let exclusiveLowerBound = 7;
+    // console.log('actual is greater than exclusive lower bound:', 9 > exclusiveLowerBound)
 
 // 7. Arrays and Loops
 
