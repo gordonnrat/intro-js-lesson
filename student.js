@@ -96,9 +96,9 @@ Complete the following numbered tasks:
 // 5. Create a getRandom function that returns a random number from 1-100.
 
     function getRandom() {
-        let rootRound = Math.random() * 100;
-        console.log(rootRound);
-        return rootRound;
+        let random = Math.random() * 100;
+        console.log(random);
+        return random;
     }
 
     getRandom();
