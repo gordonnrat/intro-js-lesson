@@ -102,3 +102,47 @@ Complete the following numbered tasks:
     }
 
     getRandom();
+
+    /*
+========== LESSON 4 - STRINGS ==========
+*/
+// 1. Create a getPersonStats function statement that takes in 3 Strings: name, job, age. The function should console log a statement such as "Hi my name is [NAME], I am [AGE] years old, and I am a [JOB]".
+
+    function getPersonStats(name, job, age) {
+        console.log(`Hi my name is ${name}, I am ${age} years old, and I am a ${job}`);
+    }
+
+    getPersonStats("Peter", "Actor", 54);
+
+// 2. Create a sayFirstAndLast function expression that takes in 1 String parameter and console logs "the first character is: [firstChar] and last character is: [lastChar]".
+
+    function sayFirstAndLast(string) {
+        console.log("the first character is: " + string[0] + " and last character is: " + string[string.length - 1]);
+    }
+
+    sayFirstAndLast("trash");
+
+// 3. Create a yellFruitNum arrow function that takes in 1 number parameter, 1 String that is a fruit parameter, and console logs the sentence "I have [number] [FRUIT]" in all caps.
+
+    function yellFruitNum(num, fruits) {
+        let sentence = "I have " + num + " " + fruits;
+        console.log(sentence.toUpperCase());
+    }
+
+    yellFruitNum(5, "bananas");
+
+// 4. Create a sliceFruit function that takes in a String of a fruit and console logs everything except the first 2 letters.
+
+    function sliceFruit(fruits) {
+        console.log(fruits.slice(0,2));
+    }
+
+    sliceFruit("apples");
+
+// 5. Create a splitFruit function that takes in a String of a fruit and returns an array of the letters split into each index of the array.
+
+    function splitFruit(fruits) {
+        console.log(fruits.split(""));
+    }
+
+    splitFruit("apple");
