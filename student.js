@@ -134,7 +134,7 @@ Complete the following numbered tasks:
 // 4. Create a sliceFruit function that takes in a String of a fruit and console logs everything except the first 2 letters.
 
     function sliceFruit(fruits) {
-        console.log(fruits.slice(0,2));
+        console.log(fruits.slice(2));
     }
 
     sliceFruit("apples");
